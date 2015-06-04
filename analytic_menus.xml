@@ -51,5 +51,8 @@
         <menuitem id="menu_analytic_code" name="Codes"
             parent="menu_analytic_config_root" sequence="20" action="action_analytic_code" />
 
+        <!-- Add Menu for Analytic-->
+        <menuitem id="main_analytic_menu" name="Analytique" action="action_analytic_code" sequence="5"/>
+
     </data>
 </openerp>
