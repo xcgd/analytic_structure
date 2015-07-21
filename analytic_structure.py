@@ -322,7 +322,7 @@ class analytic_structure(osv.Model):
                         attrs[attr] = value
                     parent.append(etree.Element('field', attrs))
 
-                parent.extend(next_children)
+            parent.extend(next_children)
 
         view['arch'] = etree.tostring(doc)
 
